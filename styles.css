@@ -27,15 +27,30 @@
     isolation: isolate;
     }
 
-    /* :root {
+    :root {
+        /* PRIMARY */
 
-    } */
+        --cyan: hsl(179, 62%, 43%);
+        --bright-yellow: hsl(71, 73%, 54%);
+
+        /* NEUTRAL */ 
+        --light-gray: hsl(204, 43%, 93%);
+        --grayish-blue: hsl(218, 22%, 67%);
+    }
 
     body {
         margin: 0;
         padding: 0;
+        font-family: 'Karla', sans-serif;
         min-height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center;    
+    }
+
+    .container {
+        max-width: 20.44rem;
+        margin: 4.5rem 2rem 3.88rem;
+        display: grid;
+        grid-template-rows: ;
     }
