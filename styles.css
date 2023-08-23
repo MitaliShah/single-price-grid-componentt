@@ -49,8 +49,49 @@
     }
 
     .container {
-        max-width: 20.44rem;
+        max-width: 19.4375rem;
         margin: 4.5rem 2rem 3.88rem;
         display: grid;
-        grid-template-rows: ;
+        grid-template-rows: 16.68rem 1fr 1fr;
+    }
+
+    .section-one {
+        padding: 1.75rem 1.5rem 2rem;
+    }
+
+    .section-two {
+        padding: 1.5rem;
+    }
+
+    .section-three {
+        padding: 1.5rem;
+        padding-right: 3rem;
+    }
+
+    @media(min-width: 45rem) {
+        .container {
+            max-width: 39.69rem;
+            margin: 0;
+            display: grid;
+            grid-template-areas:
+                'top top'
+                'bottomone bottomtwo';
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+        }
+
+        .section-one {
+            grid-area: top;
+            padding: 2.5rem;
+        }
+
+        .section-two {
+            grid-area: bottomone;
+            padding: 2.5rem;
+        }
+
+        .section-three {
+            grid-area: bottomtwo;
+            padding: 2.5rem;
+        }
     }
