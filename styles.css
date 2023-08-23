@@ -106,6 +106,56 @@
         letter-spacing: -0.01094rem;
     }
 
+    .title {
+        color: #FFF;
+        font-size: 1.125rem;
+        font-weight: 700;
+        letter-spacing: -0.01406rem;
+        margin-bottom: 1.13rem;
+    }
+
+    .amount {
+        color: #FFF;
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: -0.025rem;       
+    }
+
+    .monthly {
+        color: inherit;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.6;
+        letter-spacing: -0.0125rem;
+        opacity: 0.5;       
+    }
+
+    .section-two-description {
+        color: #FFF;
+        letter-spacing: -0.0125rem;
+        margin-bottom: 1.63rem;       
+    }
+
+    .sign-up-btn {
+        border: none;
+        width: 100%;
+        padding-top: 0.94rem;
+        padding-bottom: 0.94rem;
+        border-radius: 0.3125rem;
+        background: #C0DF33;
+        box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.10);
+        color: #FFF;
+        font-size: 1rem;
+        font-weight: 700;
+        letter-spacing: -0.0125rem;
+    }
+
+    .description {
+        opacity: 0.75;
+        color: #FFF;        
+        letter-spacing: -0.01094rem;
+    }
+
     @media(min-width: 45rem) {
         .container {
             max-width: 39.69rem;
