@@ -45,7 +45,8 @@
         min-height: 100vh;
         display: flex;
         justify-content: center;
-        align-items: center;    
+        align-items: center;
+        background: #E6EFF5;            
     }
 
     .container {
@@ -53,19 +54,25 @@
         margin: 4.5rem 2rem 3.88rem;
         display: grid;
         grid-template-rows: 16.68rem 1fr 1fr;
+        box-shadow: 0px 15px 30px 0px rgba(0, 81, 171, 0.15);
     }
 
     .section-one {
         padding: 1.75rem 1.5rem 2rem;
+        background: #FFF;
+        border-radius: 0.32rem 0.32rem 0 0;
     }
 
     .section-two {
         padding: 1.5rem;
+        background: #2AB3B1;
     }
 
     .section-three {
         padding: 1.5rem;
         padding-right: 3rem;
+        background: #4ABEBD;
+        border-radius: 0 0 0.32rem 0.32rem;
     }
 
     @media(min-width: 45rem) {
@@ -88,10 +95,12 @@
         .section-two {
             grid-area: bottomone;
             padding: 2.5rem;
+            border-radius: 0 0 0 0.32rem;
         }
 
         .section-three {
             grid-area: bottomtwo;
             padding: 2.5rem;
+            border-radius: 0 0 0.32rem 0;
         }
     }
